@@ -1,0 +1,16 @@
+@import "colors";
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $lightpurple;
+    color: $black;
+    padding: 1.5rem;
+
+    p {
+        margin: 0;
+    }
+
+}

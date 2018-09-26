@@ -1,0 +1,12 @@
+.built-by {
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 0.4rem;
+    padding-top: 0.25rem;
+
+    svg {
+        width: 1.25rem;
+    }
+
+}

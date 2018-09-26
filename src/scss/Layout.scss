@@ -1,0 +1,12 @@
+@import "reset";
+
+.layout {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.content {
+    margin: 1rem 2rem;
+}
