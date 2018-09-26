@@ -1,21 +1,49 @@
+require("dotenv").config({
+    path: `.env.${process.env.NODE_ENV}`,
+})
+
+
 module.exports = {
-  siteMetadata: {
-    title: 'Gatsby Default Starter',
-  },
-  plugins: [
-    'gatsby-plugin-react-helmet',
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
-        start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
-        display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
-      },
-    },
-    'gatsby-plugin-offline',
-  ],
+    plugins: [
+        {
+            resolve: "gatsby-plugin-react-helmet",
+        },
+        {
+            resolve: "gatsby-plugin-manifest",
+            options: {
+                name: "gatsby starter",
+                short_name: "gatsby starter",
+                start_url: "/",
+                background_color: "#ffffff",
+                theme_color: "#ffffff",
+                display: "minimal-ui",
+                icon: "src/images/gatsby-icon.png",
+            },
+        },
+        {
+            resolve: "gatsby-plugin-offline",
+        },
+        {
+            resolve: "gatsby-plugin-google-analytics",
+            options: {
+                trackingId: process.env.TRACKING_ID,
+                head: true,
+                anonymize: true,
+                respectDNT: false,
+            },
+        },
+        {
+            resolve: "gatsby-plugin-google-fonts",
+            options: {
+                fonts: [
+                    "righteous: 400",
+                    "montserrat: 400,500,600,700,800,900",
+                    "open sans: 400,500,600,700,800,900",
+                ],
+            },
+        },
+        {
+            resolve: "gatsby-plugin-sass",
+        },
+    ],
 }
