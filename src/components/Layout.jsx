@@ -22,7 +22,7 @@ const Layout = ({children}) => {
             <Helmet>
                 <html lang="en"/>
                 <title>gatsby starter</title>
-                <meta name="description" content="gatsby starter"/>
+                <meta name="description" content="⚛️📄🚀 gatsby starter template"/>
                 <meta name="keywords" content="gatsby, react, scss, eslint"/>
                 <link rel="icon" type="image/png" href={favicon}/>
             </Helmet>
