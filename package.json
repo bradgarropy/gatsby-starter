@@ -1,32 +1,47 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^2.0.0",
-    "gatsby-plugin-manifest": "^2.0.2",
-    "gatsby-plugin-offline": "^2.0.5",
-    "gatsby-plugin-react-helmet": "^3.0.0",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "prettier": "^1.14.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  }
+    "name": "gatsby-starter",
+    "version": "1.0.0",
+    "description": "gatsby starter",
+    "keywords": [
+        "gatsby",
+        "react",
+        "scss",
+        "eslint"
+    ],
+    "homepage": "https://github.com/bradgarropy/gatsby-starter",
+    "bugs": {
+        "url": "https://github.com/bradgarropy/gatsby-starter/issues"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Brad Garropy",
+        "email": "bradgarropy@gmail.com",
+        "url": "https://bradgarropy.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bradgarropy/gatsby-starter"
+    },
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop"
+    },
+    "dependencies": {
+        "dotenv": "^6.0.0",
+        "gatsby": "^2.0.0",
+        "gatsby-plugin-google-analytics": "^2.0.6",
+        "gatsby-plugin-google-fonts": "0.0.4",
+        "gatsby-plugin-manifest": "^2.0.2",
+        "gatsby-plugin-offline": "^2.0.5",
+        "gatsby-plugin-react-helmet": "^3.0.0",
+        "gatsby-plugin-sass": "^2.0.1",
+        "node-sass": "^4.9.3",
+        "react": "^16.5.1",
+        "react-dom": "^16.5.1",
+        "react-helmet": "^5.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^5.6.0",
+        "eslint-plugin-react": "^7.11.1"
+    }
 }
