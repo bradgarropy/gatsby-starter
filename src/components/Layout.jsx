@@ -33,13 +33,13 @@ const Layout = ({children}) => {
                 <meta name="twitter:creator" content="@bradgarropy"/>
                 <meta name="twitter:title" content="gatsby starter"/>
                 <meta name="twitter:description" content="⚛️📄🚀 gatsby starter template"/>
-                <meta name="twitter:image" content="https://res.cloudinary.com/bradgarropy/image/upload/q_auto,f_auto,ar_2:1,c_mpad,w_1600/gatsby-starter/gatsby-starter.png"/>
+                <meta name="twitter:image" content="https://res.cloudinary.com/bradgarropy/image/upload/q_auto,f_auto,ar_2:1,c_pad,w_1600/gatsby-starter/gatsby-starter.png"/>
 
                 <meta property="og:url" content="https://github.com/bradgarropy/gatsby-starter"/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:title" content="gatsby starter"/>
                 <meta property="og:description" content="⚛️📄🚀 gatsby starter template"/>
-                <meta property="og:image" content="https://res.cloudinary.com/bradgarropy/image/upload/q_auto,f_auto,ar_2:1,c_mpad,w_1600/gatsby-starter/gatsby-starter.png"/>
+                <meta property="og:image" content="https://res.cloudinary.com/bradgarropy/image/upload/q_auto,f_auto,ar_2:1,c_pad,w_1600/gatsby-starter/gatsby-starter.png"/>
 
                 <link rel="icon" type="image/png" href={favicon}/>
 
