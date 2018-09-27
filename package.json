@@ -1,14 +1,14 @@
 {
     "name": "gatsby-starter",
-    "version": "1.0.0",
-    "description": "⚛️📄🚀 gatsby starter template",
+    "version": "1.0.1",
+    "description": "🥂 the great gatsby starter",
     "keywords": [
         "gatsby",
         "react",
         "scss",
         "eslint"
     ],
-    "homepage": "https://great-gatsby-starter.netlify.com/",
+    "homepage": "https://the-great-gatsby-starter.netlify.com/",
     "bugs": {
         "url": "https://github.com/bradgarropy/gatsby-starter/issues"
     },
