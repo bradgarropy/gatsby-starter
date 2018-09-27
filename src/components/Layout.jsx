@@ -35,7 +35,7 @@ const Layout = ({children}) => {
                 <meta name="twitter:description" content="⚛️📄🚀 gatsby starter template"/>
                 <meta name="twitter:image" content="https://res.cloudinary.com/bradgarropy/image/upload/q_auto,f_auto,ar_2:1,c_mpad,w_1800,b_white/gatsby-starter/gatsby-starter.png"/>
 
-                <meta property="og:url" content="https://github.com/bradgarropy/gatsby-starter"/>
+                <meta property="og:url" content="https://great-gatsby-starter.netlify.com/"/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:title" content="gatsby starter"/>
                 <meta property="og:description" content="⚛️📄🚀 gatsby starter template"/>
