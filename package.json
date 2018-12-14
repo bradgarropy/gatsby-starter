@@ -1,47 +1,47 @@
 {
-  "name": "gatsby-starter",
-  "version": "1.0.3",
-  "description": "🥂 the great gatsby starter",
-  "keywords": [
-    "gatsby",
-    "react",
-    "scss",
-    "eslint"
-  ],
-  "homepage": "https://the-great-gatsby-starter.netlify.com/",
-  "bugs": {
-    "url": "https://github.com/bradgarropy/gatsby-starter/issues"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "Brad Garropy",
-    "email": "bradgarropy@gmail.com",
-    "url": "https://bradgarropy.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bradgarropy/gatsby-starter"
-  },
-  "scripts": {
-    "start": "gatsby develop",
-    "build": "gatsby build"
-  },
-  "dependencies": {
-    "dotenv": "^6.1.0",
-    "gatsby": "^2.0.48",
-    "gatsby-plugin-google-analytics": "^2.0.7",
-    "gatsby-plugin-google-fonts": "0.0.4",
-    "gatsby-plugin-manifest": "^2.0.9",
-    "gatsby-plugin-offline": "^2.0.14",
-    "gatsby-plugin-react-helmet": "^3.0.2",
-    "gatsby-plugin-sass": "^2.0.4",
-    "node-sass": "^4.10.0",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-helmet": "^5.2.0"
-  },
-  "devDependencies": {
-    "eslint": "^5.9.0",
-    "eslint-plugin-react": "^7.11.1"
-  }
+    "name": "gatsby-starter",
+    "version": "1.0.4",
+    "description": "🥂 the great gatsby starter",
+    "keywords": [
+        "gatsby",
+        "react",
+        "scss",
+        "eslint"
+    ],
+    "homepage": "https://the-great-gatsby-starter.netlify.com/",
+    "bugs": {
+        "url": "https://github.com/bradgarropy/gatsby-starter/issues"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Brad Garropy",
+        "email": "bradgarropy@gmail.com",
+        "url": "https://bradgarropy.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bradgarropy/gatsby-starter"
+    },
+    "scripts": {
+        "start": "gatsby develop",
+        "build": "gatsby build"
+    },
+    "dependencies": {
+        "dotenv": "^6.2.0",
+        "gatsby": "^2.0.67",
+        "gatsby-plugin-google-analytics": "^2.0.8",
+        "gatsby-plugin-google-fonts": "0.0.4",
+        "gatsby-plugin-manifest": "^2.0.12",
+        "gatsby-plugin-offline": "^2.0.19",
+        "gatsby-plugin-react-helmet": "^3.0.4",
+        "gatsby-plugin-sass": "^2.0.7",
+        "node-sass": "^4.11.0",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3",
+        "react-helmet": "^5.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^5.10.0",
+        "eslint-plugin-react": "^7.11.1"
+    }
 }
