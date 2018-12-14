@@ -2,7 +2,6 @@ require("dotenv").config({
     path: `.env.${process.env.NODE_ENV}`,
 })
 
-
 module.exports = {
     plugins: [
         {
@@ -17,7 +16,7 @@ module.exports = {
                 background_color: "#ffffff",
                 theme_color: "#ffffff",
                 display: "minimal-ui",
-                icon: "src/images/gatsby-icon.png",
+                icon: "static/icons/gatsby-icon.png",
             },
         },
         {
@@ -35,9 +34,7 @@ module.exports = {
         {
             resolve: "gatsby-plugin-google-fonts",
             options: {
-                fonts: [
-                    "roboto",
-                ],
+                fonts: ["roboto"],
             },
         },
         {
