@@ -1,7 +1,6 @@
 @import "colors";
 
 .navigation {
-
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: auto;
@@ -11,5 +10,4 @@
     a {
         color: $white;
     }
-
 }

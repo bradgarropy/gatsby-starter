@@ -1,20 +1,14 @@
 import React from "react"
-import Helmet from "react-helmet"
 import PropTypes from "prop-types"
-
-// components
+import Helmet from "react-helmet"
 import Header from "./Header"
 import Footer from "./Footer"
-
-// favicon
 import favicon from "../../static/icons/gatsby-icon.png"
-
-// styles
 import "../scss/Layout.scss"
 
 const Layout = ({children}) => {
     return (
-        <React.Fragment>
+        <>
             <Helmet>
                 <html lang="en"/>
 
@@ -64,7 +58,7 @@ const Layout = ({children}) => {
 
                 <Footer/>
             </div>
-        </React.Fragment>
+        </>
     )
 }
 
@@ -72,5 +66,4 @@ Layout.propTypes = {
     children: PropTypes.node,
 }
 
-// export
 export default Layout
