@@ -1,6 +1,6 @@
 {
     "name": "gatsby-starter",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "🥂 the great gatsby starter",
     "keywords": [
         "gatsby",
@@ -27,21 +27,24 @@
         "build": "gatsby build"
     },
     "dependencies": {
+        "babel-plugin-styled-components": "^1.10.0",
         "dotenv": "^6.2.0",
-        "gatsby": "^2.0.90",
-        "gatsby-plugin-google-analytics": "^2.0.9",
+        "gatsby": "^2.0.114",
+        "gatsby-plugin-google-analytics": "^2.0.13",
         "gatsby-plugin-google-fonts": "0.0.4",
-        "gatsby-plugin-manifest": "^2.0.13",
-        "gatsby-plugin-offline": "^2.0.21",
-        "gatsby-plugin-react-helmet": "^3.0.5",
-        "gatsby-plugin-sass": "^2.0.7",
+        "gatsby-plugin-manifest": "^2.0.17",
+        "gatsby-plugin-offline": "^2.0.22",
+        "gatsby-plugin-react-helmet": "^3.0.6",
+        "gatsby-plugin-sass": "^2.0.10",
+        "gatsby-plugin-styled-components": "^3.0.5",
         "node-sass": "^4.11.0",
         "react": "^16.7.0",
         "react-dom": "^16.7.0",
-        "react-helmet": "^5.2.0"
+        "react-helmet": "^5.2.0",
+        "styled-components": "^4.1.3"
     },
     "devDependencies": {
-        "eslint": "^5.12.0",
-        "eslint-plugin-react": "^7.12.3"
+        "eslint": "^5.13.0",
+        "eslint-plugin-react": "^7.12.4"
     }
 }
