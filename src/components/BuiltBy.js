@@ -1,9 +1,20 @@
 import React from "react"
-import "../scss/BuiltBy.scss"
+import styled from "styled-components"
+
+const StyledBuildBy = styled.div`
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 0.4rem;
+    padding-top: 0.25rem;
+
+    svg {
+        width: 1.25rem;
+    }
+`
 
 const BuiltBy = () => {
     return (
-        <div className="built-by">
+        <StyledBuildBy>
             <span>built by</span>
 
             <a href="https://bradgarropy.com">
@@ -22,7 +33,7 @@ const BuiltBy = () => {
                     />
                 </svg>
             </a>
-        </div>
+        </StyledBuildBy>
     )
 }
 
