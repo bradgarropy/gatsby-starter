@@ -16,7 +16,7 @@ module.exports = {
                 background_color: "#ffffff",
                 theme_color: "#ffffff",
                 display: "minimal-ui",
-                icon: "static/icons/gatsby-icon.png",
+                icon: "static/images/gatsby-icon.png",
             },
         },
         {
@@ -36,9 +36,6 @@ module.exports = {
             options: {
                 fonts: ["roboto"],
             },
-        },
-        {
-            resolve: "gatsby-plugin-sass",
         },
         {
             resolve: "gatsby-plugin-styled-components",

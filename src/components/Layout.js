@@ -1,68 +1,31 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Helmet from "react-helmet"
-import {ThemeProvider} from "styled-components"
+import styled, {ThemeProvider} from "styled-components"
+import Meta from "./Meta"
 import Header from "./Header"
 import Footer from "./Footer"
-import favicon from "../../static/icons/gatsby-icon.png"
-import GlobalStyles from "../styles/GlobalStyles"
 import theme from "../styles/theme"
-import "../scss/Layout.scss"
+import GlobalStyles from "../styles/GlobalStyles"
+import Container from "../styles/Container"
+
+const StyledLayout = styled.div`
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: "Roboto", sans-serif;
+`
 
 const Layout = ({children}) => (
     <ThemeProvider theme={theme}>
         <>
             <GlobalStyles/>
+            <Meta/>
 
-            <Helmet>
-                <html lang="en"/>
-
-                <title>gatsby starter</title>
-
-                <meta
-                    name="description"
-                    content="🥂 the great gatsby starter"
-                />
-                <meta name="keywords" content="gatsby, react, scss, eslint"/>
-
-                <meta name="twitter:card" content="summary_large_image"/>
-                <meta name="twitter:site" content="@bradgarropy"/>
-                <meta name="twitter:creator" content="@bradgarropy"/>
-                <meta name="twitter:title" content="gatsby starter"/>
-                <meta
-                    name="twitter:description"
-                    content="🥂 the great gatsby starter"
-                />
-                <meta
-                    name="twitter:image"
-                    content="https://res.cloudinary.com/bradgarropy/image/upload/q_auto,f_auto,ar_2:1,c_mpad,w_1800,b_white/gatsby-starter/gatsby-starter.png"
-                />
-
-                <meta
-                    property="og:url"
-                    content="https://the-great-gatsby-starter.netlify.com/"
-                />
-                <meta property="og:type" content="website"/>
-                <meta property="og:title" content="gatsby starter"/>
-                <meta
-                    property="og:description"
-                    content="🥂 the great gatsby starter"
-                />
-                <meta
-                    property="og:image"
-                    content="https://res.cloudinary.com/bradgarropy/image/upload/q_auto,f_auto,ar_2:1,c_mpad,w_1800,b_white/gatsby-starter/gatsby-starter.png"
-                />
-
-                <link rel="icon" type="image/png" href={favicon}/>
-            </Helmet>
-
-            <div className="layout">
+            <StyledLayout>
                 <Header/>
-
-                <div className="content">{children}</div>
-
+                <Container>{children}</Container>
                 <Footer/>
-            </div>
+            </StyledLayout>
         </>
     </ThemeProvider>
 )
