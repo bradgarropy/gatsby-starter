@@ -1,6 +1,6 @@
 import React from "react"
 import Helmet from "react-helmet"
-import favicon from "../../static/images/gatsby-icon.png"
+import favicon from "../../static/gatsby-icon.png"
 
 const Meta = () => {
     return (
