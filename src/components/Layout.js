@@ -1,9 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import styled, {ThemeProvider} from "styled-components"
-import Meta from "./Meta"
-import Header from "./Header"
-import Footer from "./Footer"
+import Header from "./Header/Header"
+import Footer from "./Footer/Footer"
 import theme from "../styles/theme"
 import GlobalStyles from "../styles/GlobalStyles"
 import Container from "../styles/Container"
@@ -19,7 +18,6 @@ const Layout = ({children}) => (
     <ThemeProvider theme={theme}>
         <>
             <GlobalStyles/>
-            <Meta/>
 
             <StyledLayout>
                 <Header/>
