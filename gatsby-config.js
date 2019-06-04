@@ -3,6 +3,13 @@ require("dotenv").config({
 })
 
 module.exports = {
+    siteMetadata: {
+        siteUrl: "https://the-great-gatsby-starter.netlify.com",
+        title: "gatsby starter",
+        description: "🥂 the great gatsby starter",
+        keywords: ["gatsby", "react", "scss", "eslint"],
+        email: "bradgarropy@gmail.com",
+    },
     plugins: [
         {
             resolve: "gatsby-plugin-react-helmet",
@@ -16,7 +23,7 @@ module.exports = {
                 background_color: "#ffffff",
                 theme_color: "#ffffff",
                 display: "minimal-ui",
-                icon: "static/gatsby-icon.png",
+                icon: "static/icon.png",
             },
         },
         {
