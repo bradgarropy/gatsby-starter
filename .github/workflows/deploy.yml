@@ -6,6 +6,10 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps:
+            - name: "💩 dump context"
+              env:
+                  GITHUB_CONTEXT: ${{ toJson(github) }}
+              run: echo "$GITHUB_CONTEXT"
             - name: "📚 checkout"
               uses: actions/checkout@master
             - name: "📦 install"
@@ -18,4 +22,4 @@ jobs:
                   NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
                   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
               with:
-                  args: "deploy --prod --dir public --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN"
+                  args: "deploy --prod --dir=public --site=$NETLIFY_SITE_ID --auth=$NETLIFY_AUTH_TOKEN"
