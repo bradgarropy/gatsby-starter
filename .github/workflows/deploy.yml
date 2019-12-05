@@ -7,10 +7,6 @@ jobs:
         name: ${{github.event.release.tag_name}}
         runs-on: ubuntu-latest
         steps:
-            - name: "💩 dump context"
-              env:
-                  GITHUB_CONTEXT: ${{ toJson(github) }}
-              run: echo "$GITHUB_CONTEXT"
             - name: "📚 checkout"
               uses: actions/checkout@master
             - name: "📦 install"
