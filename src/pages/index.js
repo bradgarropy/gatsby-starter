@@ -1,7 +1,7 @@
 import React from "react"
 import {Meta, Twitter, Facebook} from "../components/SEO"
 
-const Index = () => {
+const IndexPage = () => {
     return (
         <>
             <Meta title="gatsby starter"/>
@@ -13,4 +13,4 @@ const Index = () => {
     )
 }
 
-export default Index
+export default IndexPage

@@ -1,7 +1,7 @@
 import React from "react"
 import {Meta, Twitter, Facebook} from "../components/SEO"
 
-const About = () => {
+const AboutPage = () => {
     return (
         <>
             <Meta title="about"/>
@@ -13,4 +13,4 @@ const About = () => {
     )
 }
 
-export default About
+export default AboutPage
