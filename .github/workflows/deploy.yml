@@ -15,6 +15,7 @@ jobs:
             - name: "🚀 deploy"
               uses: "netlify/actions/cli@master"
               env:
+                  NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
                   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
               with:
-                  args: "deploy --dir=public --prod --auth=$NETLIFY_AUTH_TOKEN"
+                  args: "deploy --prod --dir public --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN"
