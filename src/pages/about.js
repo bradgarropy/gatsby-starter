@@ -1,7 +1,5 @@
 import React from "react"
-import Meta from "../components/SEO/Meta"
-import Facebook from "../components/SEO/Facebook"
-import Twitter from "../components/SEO/Twitter"
+import {Meta, Twitter, Facebook} from "../components/SEO"
 
 const About = () => {
     return (
