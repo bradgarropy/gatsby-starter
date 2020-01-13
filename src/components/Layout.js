@@ -6,6 +6,7 @@ import Footer from "./Footer/Footer"
 import theme from "../styles/theme"
 import GlobalStyles from "../styles/GlobalStyles"
 import Container from "../styles/Container"
+import "../../node_modules/modern-normalize/modern-normalize.css"
 
 const StyledLayout = styled.div`
     height: 100vh;
@@ -17,12 +18,12 @@ const StyledLayout = styled.div`
 const Layout = ({children}) => (
     <ThemeProvider theme={theme}>
         <>
-            <GlobalStyles/>
+            <GlobalStyles />
 
             <StyledLayout>
-                <Header/>
+                <Header />
                 <Container>{children}</Container>
-                <Footer/>
+                <Footer />
             </StyledLayout>
         </>
     </ThemeProvider>
