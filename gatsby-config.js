@@ -4,11 +4,12 @@ require("dotenv").config({
 
 module.exports = {
     siteMetadata: {
-        siteUrl: "https://the-great-gatsby-starter.netlify.com",
+        url: "https://the-great-gatsby-starter.netlify.app",
         title: "gatsby starter",
         description: "🥂 the great gatsby starter",
         keywords: ["gatsby", "react", "scss", "eslint"],
         email: "bradgarropy@gmail.com",
+        twitter: "bradgarropy",
     },
     plugins: [
         {
@@ -23,7 +24,7 @@ module.exports = {
                 background_color: "#ffffff",
                 theme_color: "#ffffff",
                 display: "minimal-ui",
-                icon: "static/icon.png",
+                icon: "static/favicon.png",
             },
         },
         {
@@ -39,9 +40,13 @@ module.exports = {
             },
         },
         {
-            resolve: "gatsby-plugin-google-fonts",
+            resolve: "gatsby-plugin-prefetch-google-fonts",
             options: {
-                fonts: ["roboto"],
+                fonts: [
+                    {
+                        family: "Roboto",
+                    },
+                ],
             },
         },
         {
@@ -60,6 +65,12 @@ module.exports = {
                     include: /svg/,
                 },
             },
+        },
+        {
+            resolve: "gatsby-plugin-catch-links",
+        },
+        {
+            resolve: "@bradgarropy/gatsby-plugin-seo",
         },
     ],
 }

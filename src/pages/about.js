@@ -1,12 +1,10 @@
 import React from "react"
-import {Meta, Twitter, Facebook} from "../components/SEO"
+import SEO from "@bradgarropy/gatsby-plugin-seo"
 
 const AboutPage = () => {
     return (
         <>
-            <Meta title="about"/>
-            <Facebook/>
-            <Twitter/>
+            <SEO title="about" />
 
             <h1>about</h1>
         </>

@@ -1,12 +1,10 @@
 import React from "react"
-import {Meta, Twitter, Facebook} from "../components/SEO"
+import SEO from "@bradgarropy/gatsby-plugin-seo"
 
 const NotFoundPage = () => {
     return (
         <>
-            <Meta title="not found"/>
-            <Facebook/>
-            <Twitter/>
+            <SEO title="not found" />
 
             <h1>NOT FOUND</h1>
             <p>You just hit a route that doesn&apos;t exist... the sadness.</p>

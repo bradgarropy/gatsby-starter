@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://the-great-gatsby-starter.netlify.com">
-        <img alt="🥂 the great gatsby starter" src="/static/icon.png" width="150">
+        <img alt="🥂 the great gatsby starter" src="/static/favicon.png" width="150">
     </a>
 </p>
 

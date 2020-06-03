@@ -1,12 +1,10 @@
 import React from "react"
-import {Meta, Twitter, Facebook} from "../components/SEO"
+import SEO from "@bradgarropy/gatsby-plugin-seo"
 
 const IndexPage = () => {
     return (
         <>
-            <Meta title="gatsby starter"/>
-            <Facebook/>
-            <Twitter/>
+            <SEO title="gatsby starter" />
 
             <h1>home</h1>
         </>
