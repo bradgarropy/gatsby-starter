@@ -31,6 +31,10 @@ Now your site is up and running at http://localhost:8000!
 -   [SEO][seo]
 -   [PWA][pwa]
 
+_It also has a perfect Lighthouse score!_
+
+![Lighthouse][lighthouse]
+
 ### 🚀 deploy your own
 
 Clicking the deploy button below will create a [GitHub][github] repository for you, link it to [Netlify][netlify], and deploy the site.
@@ -53,6 +57,7 @@ Clicking the deploy button below will create a [GitHub][github] repository for y
 [analytics]: https://analytics.google.com
 [seo]: https://www.npmjs.com/package/@bradgarropy/gatsby-plugin-seo
 [pwa]: https://www.npmjs.com/package/gatsby-plugin-manifest
+[lighthouse]: static/lighthouse.png
 [github]: https://github.com
 [netlify]: https://netlify.com
 [deploy-button]: https://www.netlify.com/img/deploy/button.svg
