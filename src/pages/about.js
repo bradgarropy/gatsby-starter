@@ -4,7 +4,7 @@ import SEO from "@bradgarropy/gatsby-plugin-seo"
 const AboutPage = () => {
     return (
         <>
-            <SEO title="about" />
+            <SEO title="about" description="Learn more about us!" />
 
             <h1>about</h1>
         </>
