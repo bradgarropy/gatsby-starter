@@ -1,10 +1,10 @@
 ## 🥂 the great gatsby starter
 
-<a href="https://app.netlify.com/sites/the-great-gatsby-starter/deploys">
-    <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/2562ae85-75a6-4cb8-bd88-306aeeef816e/deploy-status">
-</a>
-
 _A base starter with linting, serverless, CSS in JS, SEO, and PWA support included._
+
+<a href="https://app.netlify.com/sites/the-great-gatsby-starter/deploys">
+<img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/2562ae85-75a6-4cb8-bd88-306aeeef816e/deploy-status">
+</a>
 
 ### 🔰 getting started
 
