@@ -31,9 +31,12 @@ Now your site is up and running at http://localhost:8000!
 -   [SEO][seo]
 -   [PWA][pwa]
 
-_It also has a perfect [Lighthouse][lighthouse] score!_
+<div align="center">
+    <p>It also has a perfect <a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a> score!</p>
+    <img alt="Lighthouse Score" src="static/lighthouse.png"/>
+</div>
 
-![Lighthouse][lighthouse-score]
+<!-- ![Lighthouse][lighthouse-score] -->
 
 ### 🚀 deploy your own
 
