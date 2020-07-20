@@ -1,10 +1,8 @@
 ## 🥂 the great gatsby starter
 
-_A base starter with linting, serverless, CSS in JS, SEO, and PWA support included._
+_A base starter with formatting, linting, serverless, CSS in JS, analytics, SEO, and PWA support included._
 
-<a href="https://app.netlify.com/sites/the-great-gatsby-starter/deploys">
-<img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/2562ae85-75a6-4cb8-bd88-306aeeef816e/deploy-status">
-</a>
+[![Netlify Status][status-button]][deploys]
 
 ### 🔰 getting started
 
@@ -25,17 +23,33 @@ Now your site is up and running at http://localhost:8000!
 
 ### 📦 what's included
 
+-   [Prettier][prettier]
+-   [ESLint][eslint]
+-   [Netlify Functions][netlify-functions]
+-   [styled-components][styled-components]
+-   [Google Analytics][analytics]
+-   [SEO][seo]
+-   [PWA][pwa]
+
 ### 🚀 deploy your own
 
-Clicking the [Deploy to netlify][deploy] button will create a [GitHub][github] repository for you, link it to [Netlify][netlify], and deploy the site.
+Clicking the deploy button below will create a [GitHub][github] repository for you, link it to [Netlify][netlify], and deploy the site.
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/bradgarropy/gatsby-starter">
-    <img alt="Deploy To Netlify" src="https://www.netlify.com/img/deploy/button.svg">
-</a>
+[![Deploy to netlify][deploy-button]][deploy]
 
 ### ❔ questions
 
+[status-button]: https://api.netlify.com/api/v1/badges/2562ae85-75a6-4cb8-bd88-306aeeef816e/deploy-status
+[deploys]: https://app.netlify.com/sites/the-great-gatsby-starter/deploys
 [gatsby-cli]: https://www.npmjs.com/package/gatsby-cli
-[deploy]: https://app.netlify.com/start/deploy?repository=https://github.com/bradgarropy/gatsby-starter
+[prettier]: https://prettier.io
+[eslint]: https://eslint.org
+[netlify-functions]: https://www.netlify.com/products/functions
+[styled-components]: https://styled-components.com
+[analytics]: https://analytics.google.com
+[seo]: https://www.npmjs.com/package/@bradgarropy/gatsby-plugin-seo
+[pwa]: https://www.npmjs.com/package/gatsby-plugin-manifest
 [github]: https://github.com
 [netlify]: https://netlify.com
+[deploy-button]: https://www.netlify.com/img/deploy/button.svg
+[deploy]: https://app.netlify.com/start/deploy?repository=https://github.com/bradgarropy/gatsby-starter
