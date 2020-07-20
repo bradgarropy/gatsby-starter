@@ -39,6 +39,9 @@ Clicking the deploy button below will create a [GitHub][github] repository for y
 
 ### ❔ questions
 
+🐛 report bugs with GitHub [issues][issues]  
+📢 if you have any feedback
+
 [status-button]: https://api.netlify.com/api/v1/badges/2562ae85-75a6-4cb8-bd88-306aeeef816e/deploy-status
 [deploys]: https://app.netlify.com/sites/the-great-gatsby-starter/deploys
 [gatsby-cli]: https://www.npmjs.com/package/gatsby-cli
@@ -53,3 +56,4 @@ Clicking the deploy button below will create a [GitHub][github] repository for y
 [netlify]: https://netlify.com
 [deploy-button]: https://www.netlify.com/img/deploy/button.svg
 [deploy]: https://app.netlify.com/start/deploy?repository=https://github.com/bradgarropy/gatsby-starter
+[issues]: https://github.com/bradgarropy/gatsby-starter/issues
