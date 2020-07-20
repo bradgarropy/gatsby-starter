@@ -4,6 +4,8 @@
     <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/2562ae85-75a6-4cb8-bd88-306aeeef816e/deploy-status">
 </a>
 
+_A base starter with linting, serverless, CSS in JS, SEO, and PWA support included._
+
 ## 🔰 getting started
 
 Use the [Gatsby CLI][gatsby-cli] to create a new directory and install the starter.
