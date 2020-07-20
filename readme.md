@@ -32,7 +32,7 @@ Now your site is up and running at http://localhost:8000!
 -   [PWA][pwa]
 
 <div align="center">
-    <p>It also has a perfect <a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a> score!</p>
+    <p><em>It also has a perfect <a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a> score!</em></p>
     <img alt="Lighthouse Score" src="static/lighthouse.png"/>
 </div>
 
