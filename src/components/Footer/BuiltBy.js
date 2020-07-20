@@ -20,8 +20,8 @@ const BuiltBy = () => {
         <StyledBuildBy>
             <span>built by</span>
 
-            <a href="https://bradgarropy.com">
-                <BG/>
+            <a href="https://bradgarropy.com" aria-label="bg">
+                <BG />
             </a>
         </StyledBuildBy>
     )
