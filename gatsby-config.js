@@ -42,11 +42,11 @@ module.exports = {
         {
             resolve: "gatsby-plugin-web-font-loader",
             options: {
-              google: {
-                families: ["Roboto"]
-              }
-            }
-          },
+                google: {
+                    families: ["Roboto"],
+                },
+            },
+        },
         {
             resolve: "gatsby-plugin-styled-components",
         },
