@@ -1,11 +1,11 @@
+import theme from "styles/theme"
 import PropTypes from "prop-types"
-import styled, {ThemeProvider} from "styled-components"
+import Container from "styles/Container"
 import Header from "components/Header/Header"
 import Footer from "components/Footer/Footer"
-import theme from "styles/theme"
 import GlobalStyles from "styles/GlobalStyles"
-import Container from "styles/Container"
-import "../../node_modules/modern-normalize/modern-normalize.css"
+import "modern-normalize/modern-normalize.css"
+import styled, {ThemeProvider} from "styled-components"
 
 const StyledLayout = styled.div`
     height: 100vh;
