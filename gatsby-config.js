@@ -53,7 +53,7 @@ module.exports = {
         {
             resolve: "gatsby-plugin-layout",
             options: {
-                component: require.resolve("./src/components/Layout.js"),
+                component: require.resolve("./src/components/Layout/Layout.js"),
             },
         },
         {

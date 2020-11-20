@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import Navigation from "components/Header/Navigation"
+import Navigation from "components/Navigation"
 
 const StyledHeader = styled.div`
     display: flex;
