@@ -1,6 +1,6 @@
-require("dotenv").config({
-    path: `.env.${process.env.NODE_ENV}`,
-})
+require("dotenv").config()
+
+console.log("TEST_SECRET", process.env.TEST_SECRET)
 
 module.exports = {
     siteMetadata: {
