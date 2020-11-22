@@ -22,4 +22,6 @@ jobs:
             - name: "🧪 test"
               run: npm run test
             - name: "build"
+              env:
+                  TEST_SECRET: ${{secrets.TEST_SECRET}}
               run: npm run build
