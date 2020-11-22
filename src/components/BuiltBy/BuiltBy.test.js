@@ -10,4 +10,6 @@ test("shows built by", () => {
         "href",
         "https://bradgarropy.com",
     )
+
+    expect(1).toBeFalsy()
 })
