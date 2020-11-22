@@ -1,6 +1,5 @@
-import React from "react"
 import styled from "styled-components"
-import BuiltBy from "./BuiltBy"
+import BuiltBy from "components/BuiltBy"
 
 const StyledFooter = styled.div`
     display: flex;

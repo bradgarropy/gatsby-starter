@@ -40,13 +40,11 @@ module.exports = {
             },
         },
         {
-            resolve: "gatsby-plugin-prefetch-google-fonts",
+            resolve: "gatsby-plugin-web-font-loader",
             options: {
-                fonts: [
-                    {
-                        family: "Roboto",
-                    },
-                ],
+                google: {
+                    families: ["Roboto"],
+                },
             },
         },
         {
@@ -55,7 +53,7 @@ module.exports = {
         {
             resolve: "gatsby-plugin-layout",
             options: {
-                component: require.resolve("./src/components/Layout.js"),
+                component: require.resolve("./src/components/Layout/Layout.js"),
             },
         },
         {

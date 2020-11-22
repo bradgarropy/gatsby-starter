@@ -1,18 +1,17 @@
-import React from "react"
+import theme from "styles/theme"
 import PropTypes from "prop-types"
+import Header from "components/Header"
+import Footer from "components/Footer"
+import Container from "styles/Container"
+import GlobalStyles from "styles/GlobalStyles"
+import "modern-normalize/modern-normalize.css"
 import styled, {ThemeProvider} from "styled-components"
-import Header from "./Header/Header"
-import Footer from "./Footer/Footer"
-import theme from "../styles/theme"
-import GlobalStyles from "../styles/GlobalStyles"
-import Container from "../styles/Container"
-import "../../node_modules/modern-normalize/modern-normalize.css"
 
 const StyledLayout = styled.div`
     height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
 `
 
 const Layout = ({children}) => (

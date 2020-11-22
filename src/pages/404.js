@@ -1,4 +1,3 @@
-import React from "react"
 import SEO from "@bradgarropy/gatsby-plugin-seo"
 
 const NotFoundPage = () => {
