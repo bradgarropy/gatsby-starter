@@ -1,5 +1,7 @@
 const path = require("path")
 
+console.log(process.env.TEST_SECRET)
+
 const onCreateWebpackConfig = ({stage, actions}) => {
     if (stage.startsWith("develop")) {
         actions.setWebpackConfig({
