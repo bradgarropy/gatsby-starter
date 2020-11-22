@@ -1,0 +1,23 @@
+name: "🧪 test"
+
+on:
+    push:
+        branches:
+            - "*"
+
+jobs:
+    build:
+        name: "🧪 test"
+        runs-on: ubuntu-latest
+        steps:
+            - name: "📚 checkout"
+              uses: actions/checkout@v2.0.0
+            - name: "🟢 node"
+              uses: actions/setup-node@v1.1.0
+              with:
+                  node-version: 13
+                  registry-url: https://registry.npmjs.org/
+            - name: "📦 install"
+              run: npm install
+            - name: "🧪 test"
+              run: npm run test
