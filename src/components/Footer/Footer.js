@@ -18,7 +18,7 @@ const Footer = () => {
     return (
         <StyledFooter>
             <p>FOOTER</p>
-            <BuiltBy/>
+            <BuiltBy />
         </StyledFooter>
     )
 }

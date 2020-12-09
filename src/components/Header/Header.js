@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <StyledHeader>
             <p>HEADER</p>
-            <Navigation/>
+            <Navigation />
         </StyledHeader>
     )
 }
