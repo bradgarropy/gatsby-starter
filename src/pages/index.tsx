@@ -1,6 +1,7 @@
+import {FC} from "react"
 import SEO from "@bradgarropy/gatsby-plugin-seo"
 
-const IndexPage = () => {
+const IndexPage: FC = () => {
     return (
         <>
             <SEO

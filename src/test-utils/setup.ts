@@ -1,8 +1,8 @@
 import "jest-styled-components"
 import "@testing-library/jest-dom"
 
-jest.mock("gatsby", () => {
-    const React = require("react")
+jest.mock("gatsby", async () => {
+    const React = await require("react")
     const gatsby = jest.requireActual("gatsby")
 
     return {

@@ -1,6 +1,7 @@
+import {FC} from "react"
 import SEO from "@bradgarropy/gatsby-plugin-seo"
 
-const NotFoundPage = () => {
+const NotFoundPage: FC = () => {
     return (
         <>
             <SEO title="not found" description="How did you even get here?" />

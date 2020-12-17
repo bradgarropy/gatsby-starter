@@ -27,8 +27,9 @@
         "start": "gatsby develop",
         "build": "gatsby build",
         "netlify": "npm run test && npm run build",
-        "lint": "eslint .",
-        "lint:fix": "eslint . --fix",
+        "lint": "npm run lint:code && npm run lint:types",
+        "lint:code": "eslint .",
+        "lint:types": "tsc --noEmit",
         "test": "jest --passWithNoTests",
         "test:watch": "npm run test -- --watch",
         "new": "plop"
