@@ -1,3 +1,4 @@
+import {FC} from "react"
 import styled from "styled-components"
 import BuiltBy from "components/BuiltBy"
 
@@ -14,7 +15,7 @@ const StyledFooter = styled.div`
     }
 `
 
-const Footer = () => {
+const Footer: FC = () => {
     return (
         <StyledFooter>
             <p>FOOTER</p>

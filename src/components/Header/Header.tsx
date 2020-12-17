@@ -1,3 +1,4 @@
+import {FC} from "react"
 import styled from "styled-components"
 import Navigation from "components/Navigation"
 
@@ -13,7 +14,7 @@ const StyledHeader = styled.div`
     }
 `
 
-const Header = () => {
+const Header: FC = () => {
     return (
         <StyledHeader>
             <p>HEADER</p>

@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./src",
+        "jsx": "react-jsx",
+        "paths": {
+            "src/*": ["./src/*"]
+        }
+    },
+    "include": ["./**/*.ts", "./**/*.tsx"]
+}

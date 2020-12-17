@@ -1,3 +1,4 @@
+import {FC} from "react"
 import theme from "styles/theme"
 import PropTypes from "prop-types"
 import Header from "components/Header"
@@ -14,7 +15,7 @@ const StyledLayout = styled.div`
     font-family: Roboto, sans-serif;
 `
 
-const Layout = ({children}) => (
+const Layout: FC = ({children}) => (
     <ThemeProvider theme={theme}>
         <>
             <GlobalStyles />
