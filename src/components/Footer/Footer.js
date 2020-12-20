@@ -1,5 +1,5 @@
-import styled from "styled-components"
 import BuiltBy from "components/BuiltBy"
+import styled from "styled-components"
 
 const StyledFooter = styled.div`
     display: flex;
