@@ -75,6 +75,7 @@
         "jest-styled-components": "^7.0.3",
         "plop": "^2.7.4",
         "prettier": "^2.2.1",
-        "react": "^17.0.1"
+        "react": "^17.0.1",
+        "regenerator-runtime": "^0.13.7"
     }
 }
