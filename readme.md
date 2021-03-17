@@ -2,7 +2,12 @@
 
 _A base starter with formatting, linting, serverless, CSS in JS, analytics, SEO, and PWA support included._
 
-[![Netlify Status][status-button]][deploys]
+[![netlify][netlify-badge]][netlify]
+[![github actions][github-actions-badge]][github-actions]
+[![codecov][codecov-badge]][codecov]
+[![contributing][contributing-badge]][contributing]
+[![contributors][contributors-badge]][contributors]
+[![discord][discord-badge]][discord]
 
 ### 🔰 getting started
 
@@ -64,8 +69,21 @@ Clicking the deploy button below will create a [GitHub][github] repository for y
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-[status-button]: https://api.netlify.com/api/v1/badges/2562ae85-75a6-4cb8-bd88-306aeeef816e/deploy-status
-[deploys]: https://app.netlify.com/sites/the-great-gatsby-starter/deploys
+[netlify]: https://app.netlify.com/sites/the-great-gatsby-starter/deploys
+[netlify-badge]: https://img.shields.io/netlify/2562ae85-75a6-4cb8-bd88-306aeeef816e?style=flat-square
+[github-actions]: https://github.com/bradgarropy/gatsby-starter/actions
+[github-actions-badge]: https://img.shields.io/github/workflow/status/bradgarropy/gatsby-starter/%F0%9F%A7%AA%20test?style=flat-square
+[codecov]: https://app.codecov.io/gh/bradgarropy/gatsby-starter
+[codecov-badge]: https://img.shields.io/codecov/c/github/bradgarropy/gatsby-starter?style=flat-square
+[contributing]: https://github.com/bradgarropy/gatsby-starter/blob/master/contributing.md
+[contributing-badge]: https://img.shields.io/badge/PRs-welcome-success?style=flat-square
+[contributors]: #-contributors
+[contributors-badge]: https://img.shields.io/github/all-contributors/bradgarropy/gatsby-starter?style=flat-square
+[discord]: https://bradgarropy.com/discord
+[discord-badge]: https://img.shields.io/discord/748196643140010015?style=flat-square\
+
+<!--  -->
+
 [gatsby-cli]: https://www.npmjs.com/package/gatsby-cli
 [prettier]: https://prettier.io
 [eslint]: https://eslint.org
