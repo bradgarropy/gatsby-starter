@@ -1,5 +1,5 @@
+import {FC} from "react"
 import "modern-normalize/modern-normalize.css"
-
 import Footer from "components/Footer"
 import Header from "components/Header"
 import PropTypes from "prop-types"
@@ -15,7 +15,7 @@ const StyledLayout = styled.div`
     font-family: Roboto, sans-serif;
 `
 
-const Layout = ({children}) => (
+const Layout: FC = ({children}) => (
     <ThemeProvider theme={theme}>
         <>
             <GlobalStyles />

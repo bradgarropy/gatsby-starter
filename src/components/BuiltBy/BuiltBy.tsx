@@ -1,5 +1,6 @@
-import styled from "styled-components"
+import {FC} from "react"
 import BG from "svg/bg.svg"
+import styled from "styled-components"
 
 const StyledBuildBy = styled.div`
     display: grid;
@@ -14,7 +15,7 @@ const StyledBuildBy = styled.div`
     }
 `
 
-const BuiltBy = () => {
+const BuiltBy: FC = () => {
     return (
         <StyledBuildBy>
             <span>built by</span>

@@ -1,6 +1,7 @@
+import {FC} from "react"
 import SEO from "@bradgarropy/gatsby-plugin-seo"
 
-const AboutPage = () => {
+const AboutPage: FC = () => {
     return (
         <>
             <SEO title="about" description="Learn more about us!" />
