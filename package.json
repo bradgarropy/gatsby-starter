@@ -1,6 +1,6 @@
 {
     "name": "gatsby-starter",
-    "version": "1.9.0",
+    "version": "1.10.0",
     "description": "🥂 the great gatsby starter",
     "keywords": [
         "gatsby",
@@ -26,13 +26,14 @@
     "scripts": {
         "start": "gatsby develop",
         "build": "gatsby build",
-        "netlify": "npm run test && npm run build",
+        "netlify": "npm run build",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
         "format": "prettier --check .",
         "format:fix": "prettier --write .",
         "test": "jest --passWithNoTests",
         "test:watch": "jest --passWithNoTests --watch",
+        "contributors": "all-contributors generate",
         "new": "plop"
     },
     "dependencies": {
@@ -64,6 +65,7 @@
         "@testing-library/jest-dom": "^5.11.6",
         "@testing-library/react": "^11.2.2",
         "@testing-library/user-event": "^13.0.0",
+        "all-contributors-cli": "^6.20.0",
         "babel-eslint": "^10.1.0",
         "babel-jest": "^26.6.3",
         "eslint": "^7.16.0",
