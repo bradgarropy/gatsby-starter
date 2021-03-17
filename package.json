@@ -1,6 +1,6 @@
 {
     "name": "gatsby-starter",
-    "version": "1.8.0",
+    "version": "1.9.0",
     "description": "🥂 the great gatsby starter",
     "keywords": [
         "gatsby",
@@ -29,6 +29,8 @@
         "netlify": "npm run test && npm run build",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
+        "format": "prettier --check .",
+        "format:fix": "prettier --write .",
         "test": "jest --passWithNoTests",
         "test:watch": "jest --passWithNoTests --watch",
         "new": "plop"
