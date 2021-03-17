@@ -8,14 +8,14 @@ node_modules
 # build
 public
 
-# test
+# build
 coverage
 
 # host
 .netlify
 
 # secrets
-.env*
+.env
 
 # logs
 debug.log
