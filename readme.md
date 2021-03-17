@@ -48,6 +48,22 @@ Clicking the deploy button below will create a [GitHub][github] repository for y
 📢 provide feedback with [issues][issues] or on [twitter][twitter]  
 🙋🏼‍♂️ use my [ama][ama] or [twitter][twitter] to ask any other questions
 
+### ✨ contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://bradgarropy.com"><img src="https://avatars.githubusercontent.com/u/11336745?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brad Garropy</b></sub></a><br /><a href="https://github.com/bradgarropy/gatsby-starter/commits?author=bradgarropy" title="Code">💻</a> <a href="#design-bradgarropy" title="Design">🎨</a> <a href="https://github.com/bradgarropy/gatsby-starter/commits?author=bradgarropy" title="Documentation">📖</a> <a href="#infra-bradgarropy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/bradgarropy/gatsby-starter/commits?author=bradgarropy" title="Tests">⚠️</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 [status-button]: https://api.netlify.com/api/v1/badges/2562ae85-75a6-4cb8-bd88-306aeeef816e/deploy-status
 [deploys]: https://app.netlify.com/sites/the-great-gatsby-starter/deploys
 [gatsby-cli]: https://www.npmjs.com/package/gatsby-cli
