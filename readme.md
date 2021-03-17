@@ -81,9 +81,6 @@ Clicking the deploy button below will create a [GitHub][github] repository for y
 [contributors-badge]: https://img.shields.io/github/all-contributors/bradgarropy/gatsby-starter?style=flat-square
 [discord]: https://bradgarropy.com/discord
 [discord-badge]: https://img.shields.io/discord/748196643140010015?style=flat-square\
-
-<!--  -->
-
 [gatsby-cli]: https://www.npmjs.com/package/gatsby-cli
 [prettier]: https://prettier.io
 [eslint]: https://eslint.org
