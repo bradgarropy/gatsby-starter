@@ -1,4 +1,4 @@
-import {Link} from "gatsby"
+import Link from "@bradgarropy/gatsby-link"
 import styled from "styled-components"
 
 const StyledNavigation = styled.nav`

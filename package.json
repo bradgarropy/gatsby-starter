@@ -1,6 +1,6 @@
 {
     "name": "gatsby-starter",
-    "version": "1.11.0",
+    "version": "1.12.0",
     "description": "🥂 the great gatsby starter",
     "keywords": [
         "gatsby",
@@ -37,6 +37,7 @@
         "new": "plop"
     },
     "dependencies": {
+        "@bradgarropy/gatsby-link": "^0.0.1",
         "@bradgarropy/gatsby-plugin-seo": "^1.0.0",
         "babel-plugin-styled-components": "^1.12.0",
         "dotenv": "^8.2.0",
