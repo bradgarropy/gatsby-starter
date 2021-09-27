@@ -1,3 +1,4 @@
+import Link from "@bradgarropy/gatsby-link"
 import {FC} from "react"
 import styled from "styled-components"
 import BG from "svg/bg.svg"
@@ -20,9 +21,9 @@ const BuiltBy: FC = () => {
         <StyledBuildBy>
             <span>built by</span>
 
-            <a href="https://bradgarropy.com" aria-label="bg">
+            <Link to="https://bradgarropy.com" aria-label="bg">
                 <BG />
-            </a>
+            </Link>
         </StyledBuildBy>
     )
 }

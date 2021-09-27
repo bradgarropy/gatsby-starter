@@ -41,6 +41,7 @@
         "new": "plop"
     },
     "dependencies": {
+        "@bradgarropy/gatsby-link": "^1.0.1",
         "@bradgarropy/gatsby-plugin-seo": "^2.1.0",
         "@types/styled-components": "^5.1.14",
         "babel-plugin-styled-components": "^1.13.2",
