@@ -1,8 +1,9 @@
-import {FC} from "react"
 import "modern-normalize/modern-normalize.css"
+
 import Footer from "components/Footer"
 import Header from "components/Header"
 import PropTypes from "prop-types"
+import {FC} from "react"
 import styled, {ThemeProvider} from "styled-components"
 import Container from "styles/Container"
 import GlobalStyles from "styles/GlobalStyles"

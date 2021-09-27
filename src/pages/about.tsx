@@ -1,5 +1,5 @@
-import {FC} from "react"
 import SEO from "@bradgarropy/gatsby-plugin-seo"
+import {FC} from "react"
 
 const AboutPage: FC = () => {
     return (

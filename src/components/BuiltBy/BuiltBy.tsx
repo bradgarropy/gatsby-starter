@@ -1,6 +1,6 @@
 import {FC} from "react"
-import BG from "svg/bg.svg"
 import styled from "styled-components"
+import BG from "svg/bg.svg"
 
 const StyledBuildBy = styled.div`
     display: grid;
