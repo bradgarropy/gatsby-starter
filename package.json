@@ -1,13 +1,16 @@
 {
     "name": "gatsby-starter",
-    "version": "1.11.0",
+    "version": "2.0.0",
     "description": "🥂 the great gatsby starter",
     "keywords": [
-        "gatsby",
+        "typescript",
         "react",
-        "styled-components",
+        "eslint",
         "prettier",
-        "eslint"
+        "jest",
+        "styled-components",
+        "gatsby",
+        "hacktoberfest"
     ],
     "homepage": "https://the-great-gatsby-starter.netlify.com",
     "bugs": {

@@ -28,6 +28,7 @@ Now your site is up and running at http://localhost:8000!
 
 ### 📦 what's included
 
+-   [TypeScript][typescript]
 -   [Prettier][prettier]
 -   [ESLint][eslint]
 -   [Netlify Functions][netlify-functions]
@@ -82,6 +83,7 @@ Clicking the deploy button below will create a [GitHub][github] repository for y
 [discord]: https://bradgarropy.com/discord
 [discord-badge]: https://img.shields.io/discord/748196643140010015?style=flat-square\
 [gatsby-cli]: https://www.npmjs.com/package/gatsby-cli
+[typescript]: https://www.typescriptlang.org
 [prettier]: https://prettier.io
 [eslint]: https://eslint.org
 [netlify-functions]: https://www.netlify.com/products/functions
