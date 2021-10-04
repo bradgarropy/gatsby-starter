@@ -1,4 +1,5 @@
 import Link from "@bradgarropy/gatsby-link"
+import {FC} from "react"
 import styled from "styled-components"
 import BG from "svg/bg.svg"
 
@@ -15,7 +16,7 @@ const StyledBuildBy = styled.div`
     }
 `
 
-const BuiltBy = () => {
+const BuiltBy: FC = () => {
     return (
         <StyledBuildBy>
             <span>built by</span>

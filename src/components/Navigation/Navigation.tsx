@@ -1,4 +1,5 @@
 import Link from "@bradgarropy/gatsby-link"
+import {FC} from "react"
 import styled from "styled-components"
 
 const StyledNavigation = styled.nav`
@@ -13,7 +14,7 @@ const StyledNavigation = styled.nav`
     }
 `
 
-const Navigation = () => {
+const Navigation: FC = () => {
     return (
         <StyledNavigation>
             <Link to="/">HOME</Link>
