@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--lightPurple);
+    color: var(--black);
+    padding: 1.5rem;
+}
+
+.footer > p {
+    margin: 0;
+}

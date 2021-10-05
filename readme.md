@@ -32,7 +32,6 @@ Now your site is up and running at http://localhost:8000!
 -   [Prettier][prettier]
 -   [ESLint][eslint]
 -   [Netlify Functions][netlify-functions]
--   [styled-components][styled-components]
 -   [Google Analytics][analytics]
 -   [SEO][seo]
 -   [PWA][pwa]
@@ -87,7 +86,6 @@ Clicking the deploy button below will create a [GitHub][github] repository for y
 [prettier]: https://prettier.io
 [eslint]: https://eslint.org
 [netlify-functions]: https://www.netlify.com/products/functions
-[styled-components]: https://styled-components.com
 [analytics]: https://analytics.google.com
 [seo]: https://www.npmjs.com/package/@bradgarropy/gatsby-plugin-seo
 [pwa]: https://www.npmjs.com/package/gatsby-plugin-manifest

@@ -1,0 +1,12 @@
+.builtBy {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.builtBy svg {
+    width: 1.25rem;
+    height: auto;
+    display: block;
+}

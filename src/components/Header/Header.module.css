@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--darkPurple);
+    color: var(--white);
+    padding: 1.5rem;
+}
+
+.header > p {
+    margin: 0;
+}
