@@ -1,6 +1,6 @@
 ## 🥂 the great gatsby starter
 
-_A base starter with formatting, linting, serverless, CSS in JS, analytics, SEO, and PWA support included._
+_A base starter with formatting, linting, serverless, CSS modules, analytics, SEO, and PWA support included._
 
 [![netlify][netlify-badge]][netlify]
 [![github actions][github-actions-badge]][github-actions]
