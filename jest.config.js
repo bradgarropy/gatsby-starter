@@ -6,9 +6,8 @@ const config = {
     moduleNameMapper: {
         "\\.(svg)$": "<rootDir>/src/test-utils/file.ts",
         "\\.(css)$": "identity-obj-proxy",
-        "^gatsby-page-utils/(.*)$": "gatsby-page-utils/dist/$1",
     },
-    testEnvironment: "jsdom",
+    testEnvironment: "jest-environment-jsdom",
     transformIgnorePatterns: ["node_modules/(?!(gatsby|gatsby-script)/)"],
 }
 
